@@ -15,9 +15,10 @@ int main(int argc, char** argv) {
 	cout << "\n### Verification d'acces:\n";
 	if(m_code == ACCESS_CODE) {
 		cout << "BRAVO !!! Code Correct\n";
-		return 0;
 	}
-	cout << "ERREUR !!! Code Incorrect\n";
+	else {
+		cout << "ERREUR !!! Code Incorrect\n";
+	}
 	return 0;
 }
 //===============================================
